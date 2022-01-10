@@ -20,7 +20,7 @@ body {
     display: flex;
 }
 
-.header-content {
+.content {
     width: 1000px;
 
     flex: 0 1 auto;
@@ -30,19 +30,19 @@ body {
     align-items: center;
 }
 
-.header-content div {
+.content div {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
 }
 
-.header-content  ul {
+.content  ul {
     display: flex;
     column-gap: 15px;
     list-style: none;
 }
 
-.header-content ul a {
+.content ul a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
