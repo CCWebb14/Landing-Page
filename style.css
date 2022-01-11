@@ -113,6 +113,10 @@ body {
     align-items: center;
 }
 
+.box-text {
+    flex-direction: column;
+}
+
 .box {
     height: 150px;
     width: 150px;
@@ -126,4 +130,47 @@ body {
 .caption {
     flex-direction: column;
     flex: 1 0 0;
+}
+
+.quote-bar {
+    background-color: #E5E7EB;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-bar {
+    display: flex;
+}
+
+.large-box {
+    height: 100px;
+    width: 1000px;
+
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #e5e7eb;  
+}
+
+.box-button {
+    color: #e5e7eb;
+    background-color: #3882F6;
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
