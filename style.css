@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "roboto", sans-serif;
 
     /* display: flex;
     flex-direction: column; */
@@ -50,6 +50,7 @@ body {
 
 .caption-figure {
     width: 1000px;
+    /* height: 200px; */
 
     /* flex: 0 1 auto; */
 
@@ -84,7 +85,7 @@ body {
 
 .bar2 {
     /* padding: 20px; */
-    height: 200px;
+    /* height: 200px; */
     background: #1F2937;
     flex: auto;
 
@@ -125,6 +126,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text {
+    width: 150px;
+    height: 50px;
 }
 
 .caption {
