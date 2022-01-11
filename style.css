@@ -71,7 +71,12 @@ body {
 }
 
 .topbutton {
-    background-color: #3882F6;
+    background: #3882F6;
+    padding: 5px 20px;
+    color: #e5e7eb;
+    border-radius: 4px;
+    border: none;
+    outline: none;
 }
 
 .figure {
@@ -130,6 +135,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin: 10px 10px;
 }
 
 .text {
@@ -173,6 +180,7 @@ body {
     color: #e5e7eb;
     background-color: #3882F6;
     border: 2px solid #e5e7eb;
+    border-radius: 5px;
 }
 
 .footer {
