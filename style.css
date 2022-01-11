@@ -70,6 +70,11 @@ body {
     color: #e5e7eb;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 .topbutton {
     background: #3882F6;
     padding: 5px 20px;
@@ -78,6 +83,11 @@ body {
     border: none;
     outline: none;
 }
+
+.topbutton:hover {
+    color: #3882F6;
+    background-color: #e5e7eb;
+  }
 
 .figure {
     background-color: slategray;
@@ -142,6 +152,9 @@ body {
 .text {
     width: 150px;
     height: 50px;
+    margin: 10px 10px;
+    align-content: center;
+    text-align: center;
 }
 
 .caption {
