@@ -50,15 +50,80 @@ body {
 
 .caption-figure {
     width: 1000px;
+
     /* flex: 0 1 auto; */
-    flex: auto;
+
     display: flex;
-    flex-direction: row;
+ 
     align-items: center;
-    justify-content: space-between;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.topbutton {
+    background-color: #3882F6;
+}
+
+.figure {
+    background-color: slategray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+}
+
+.bar2 {
+    /* padding: 20px; */
+    height: 200px;
+    background: #1F2937;
+    flex: auto;
+
+    display: flex;
+}
+
+.bar3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar4 {
+    height: 300px;
+    display: flex;
+}
+
+.boxes {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .caption {
-    display: flex;
     flex-direction: column;
+    flex: 1 0 0;
 }
