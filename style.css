@@ -41,13 +41,33 @@ body {
 }
 
 .bar2 {
+    display: flex;
+    background: #1F2937;
     padding: 50px 0;
+
 }
 
 .caption-figure {
     display: flex;
     width: 1000px;
     align-items: center;
+}
+
+.caption {
+    display: flex;
+    height: 225px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 0;
+}
+
+.figure {
+    background-color: slategray;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
 }
 
 .title {
@@ -80,27 +100,9 @@ a:hover, a:visited, a:link, a:active
     background-color: #e5e7eb;
   }
 
-.caption {
-    flex-direction: column;
-    align-items: space-between;
-    flex: 1 0 0;
-}
 
-.figure {
-    background-color: slategray;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1 0 0;
-}
 
-.bar2 {
-    background: #1F2937;
-    /* flex: auto; */
 
-    display: flex;
-}
 
 .bar3 {
     margin: 30px 0;
