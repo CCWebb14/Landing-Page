@@ -75,6 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1 0 0;
+    min-width: 350px;
     margin-bottom: 25px;
 }
 
