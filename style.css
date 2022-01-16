@@ -58,6 +58,7 @@ body {
 .caption {
     display: flex;
     height: 225px;
+    width: 500px;
     flex-direction: column;
     justify-content: space-between;
     flex: 1 0 0;
@@ -65,10 +66,7 @@ body {
     margin-bottom: 10px;
 }
 
-.figure {
-    background-color: slategray;
-    color: #e5e7eb;
-    height: 225px;
+img {
     display: flex;
     justify-content: center;
     align-items: center;
