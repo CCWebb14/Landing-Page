@@ -43,26 +43,26 @@ body {
 .bar2 {
     display: flex;
     background: #1F2937;
-    padding: 50px 0;
-
 }
 
 .caption-figure {
+    margin: 50px 0;
+    background: #1F2937;
     display: flex;
     width: 1000px;
     align-items: center;
     flex-wrap: wrap;
+    min-width: 0px;
     gap: 25px;
+    justify-content: space-between;
 }
 
 .caption {
-    display: flex;
-    height: 225px;
-    width: 500px;
     flex-direction: column;
-    justify-content: space-between;
+    display: flex;
+    gap: 25px;
+    align-items: space-around;
     flex: 1 0 0;
-    min-width: 350px;
     margin-bottom: 10px;
 }
 
@@ -71,7 +71,7 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1 0 0;
-    min-width: 350px;
+    width: 250px;
 }
 
 .title {
