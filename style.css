@@ -6,7 +6,7 @@ body {
 
 .side-bar {
     flex: 1 0 0%;
-    min-width: 75px;
+    margin: 0px 30px;
 }
 
 .header {
@@ -43,6 +43,8 @@ body {
 .bar2 {
     display: flex;
     background: #1F2937;
+    
+
 }
 
 .caption-figure {
@@ -52,7 +54,6 @@ body {
     width: 1000px;
     align-items: center;
     flex-wrap: wrap;
-    min-width: 0px;
     gap: 25px;
     justify-content: space-between;
 }
@@ -71,7 +72,7 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1 0 0;
-    width: 250px;
+    width: 300px;
 }
 
 .title {
@@ -105,16 +106,18 @@ a:hover, a:visited, a:link, a:active
     background-color: #e5e7eb;
 }
 
-.bar3 {
+.bar3{
+    display: flex;
     margin: 30px 0;
+}
 
+.bar3-content {
+    width: 1000px;
+    
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .bar4 {
@@ -140,11 +143,9 @@ a:hover, a:visited, a:link, a:active
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 15px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin: 10px 10px;
 }
 
@@ -163,7 +164,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 .quote-author {
-    width: 1000px;
+    width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,10 +172,6 @@ a:hover, a:visited, a:link, a:active
     color: #1F2937;
     padding: 100px 0;
     gap: 10px 0;
-}
-
-.quote-author > * {
-    padding: 0 100px 0 100px;
 }
 
 .quote {
