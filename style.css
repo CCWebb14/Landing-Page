@@ -11,27 +11,28 @@ body {
 
 .header {
     display: flex;
-    height: 72px;
     background: #1F2937;
+    padding: 25px 0px;
 }
 
 .content {
     display: flex;
     width: 1000px;
-    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content div {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
+    flex: 1 0 0;
 }
 
 .content  ul {
     display: flex;
     column-gap: 15px;
-    list-style: none;
+    list-style: none;    
 }
 
 .content ul a {
@@ -43,12 +44,10 @@ body {
 .bar2 {
     display: flex;
     background: #1F2937;
-    
-
+    padding-bottom: 25px;
 }
 
 .caption-figure {
-    margin: 50px 0;
     background: #1F2937;
     display: flex;
     width: 1000px;
@@ -72,7 +71,10 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1 0 0;
-    width: 300px;
+    min-width: 300;
+    width: 100%;
+    height: auto;
+    /* width: 300px; */
 }
 
 .title {
