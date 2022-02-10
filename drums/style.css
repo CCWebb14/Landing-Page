@@ -29,7 +29,6 @@ body,html {
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
-  /* height: 200px; */
   flex: auto;
   text-align: center;
   color: white;
