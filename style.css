@@ -41,6 +41,11 @@ body {
     text-decoration: none;
 }
 
+#drums{
+    font-weight: bolder;
+    color: #3882F6;
+}
+
 .bar2 {
     display: flex;
     background: #1F2937;
