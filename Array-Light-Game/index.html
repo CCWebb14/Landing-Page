@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>JS Drum Kit</title>
+  <title>Array Light Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,7 +10,7 @@
 
   <div class="board">
     <div class="row">
-      <div class="empty"></div>
+      <div data-key="leftCorner" class="switche"></div>
       <div data-key="1" class="switche"></div>
       <div data-key="2" class="switche"></div>
       <div data-key="3" class="switche"></div>
@@ -18,6 +18,8 @@
       <div data-key="5" class="switche"></div>
       <div data-key="6" class="switche"></div>
       <div data-key="7" class="switche"></div>
+      <div data-key="8" class="switche"></div>
+      <div data-key="rightCorner" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="A" class="switche"></div>
@@ -28,6 +30,8 @@
       <div data-key="A5" class="light"></div>
       <div data-key="A6" class="light"></div>
       <div data-key="A7" class="light"></div>
+      <div data-key="A8" class="light"></div>
+      <div data-key="9A" id="flip" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="B" class="switche"></div>
@@ -38,6 +42,8 @@
       <div data-key="B5" class="light"></div>
       <div data-key="B6" class="light"></div>
       <div data-key="B7" class="light"></div>
+      <div data-key="B8" class="light"></div>
+      <div data-key="9B" id="flip" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="C" class="switche"></div>
@@ -48,6 +54,8 @@
       <div data-key="C5" class="light"></div>
       <div data-key="C6" class="light"></div>
       <div data-key="C7" class="light"></div>
+      <div data-key="C8" class="light"></div>
+      <div data-key="9C" id="flip" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="D" class="switche"></div>
@@ -58,6 +66,8 @@
       <div data-key="D5" class="light"></div>
       <div data-key="D6" class="light"></div>
       <div data-key="D7" class="light"></div>
+      <div data-key="D8" class="light"></div>
+      <div data-key="9D" id="flip" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="E" class="switche"></div>
@@ -68,6 +78,8 @@
       <div data-key="E5" class="light"></div>
       <div data-key="E6" class="light"></div>
       <div data-key="E7" class="light"></div>
+      <div data-key="E8" class="light"></div>
+      <div data-key="9E" id="flip" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="F" class="switche"></div>
@@ -78,6 +90,8 @@
       <div data-key="F5" class="light"></div>
       <div data-key="F6" class="light"></div>
       <div data-key="F7" class="light"></div>
+      <div data-key="F8" class="light"></div>
+      <div data-key="9F" id="flip" class="switche"></div>
     </div>
     <div class="row">
       <div data-key="G" class="switche"></div>
@@ -88,6 +102,20 @@
       <div data-key="G5" class="light"></div>
       <div data-key="G6" class="light"></div>
       <div data-key="G7" class="light"></div>
+      <div data-key="G8" class="light"></div>
+      <div data-key="9G" id="flip" class="switche"></div>
+    </div>
+    <div class="row">
+      <div data-key="H" class="switche"></div>
+      <div data-key="H1" class="light"></div>
+      <div data-key="H2" class="light"></div>
+      <div data-key="H3" class="light"></div>
+      <div data-key="H4" class="light"></div>
+      <div data-key="H5" class="light"></div>
+      <div data-key="H6" class="light"></div>
+      <div data-key="H7" class="light"></div>
+      <div data-key="H8" class="light"></div>
+      <div data-key="9H" id="flip" class="switche"></div>
     </div>
   </div>
 
