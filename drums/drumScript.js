@@ -1,7 +1,7 @@
 const buttons = document.getElementsByClassName("keys");
 console.log(buttons);
 
-window.addEventListener('keydown', function(e){
+window.addEventListener('keyup', function(e){
     // e will tell us lots of info
     console.log(e.code);
     

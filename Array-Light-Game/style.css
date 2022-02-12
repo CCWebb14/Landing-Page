@@ -14,7 +14,7 @@ body,html {
   display: flex;
   flex-direction: column;
   flex: 1;
-  min-height: 100vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -29,10 +29,18 @@ body,html {
   column-gap: 10px;
 }
 
+.empty {
+  color: white;
+  height: 75px;
+  width: 75px;
+  border: 0.4rem solid black;
+  border-radius: 2rem;
+}
+
 .light {
   color: white;
-  height: 150px;
-  width: 150px;
+  height: 75px;
+  width: 75px;
   border: 0.4rem solid black;
   border-radius: 2rem;
 }
@@ -43,8 +51,8 @@ body,html {
 
 .switche {
   color: white;
-  height: 150px;
-  width: 150px;
+  height: 75px;
+  width: 75px;
   border: 0.4rem solid black;
   border-radius: 2rem;
 }
