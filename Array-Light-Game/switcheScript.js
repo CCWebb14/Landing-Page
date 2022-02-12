@@ -2,9 +2,9 @@
 const switches = document.querySelectorAll('.switche');
 const lights = document.querySelectorAll('.light');
 
-let x = prompt("How many pre-determined moves?");
+let x = prompt("How many pre-determined moves? (<=1000)");
 
-if(!parseInt(x)){
+if((!parseInt(x)) || x > 1000){
     throw new Error("This is not an int");
 }
 
