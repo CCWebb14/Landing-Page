@@ -1,11 +1,16 @@
 
 const switches = document.querySelectorAll('.switche');
 const lights = document.querySelectorAll('.light');
-console.log(switches[1]);
 
-// lights.forEach(light => toggleRandom(light));
+let x = prompt("How many pre-determined moves?");
 
-for(let i = 0; i<1000; i++){
+if(!parseInt(x)){
+    throw new Error("This is not an int");
+}
+
+x = parseInt(x);
+
+for(let i = 0; i<x; i++){
     ranNum = Math.random() * 26;
     let dataKey = "";
     if (ranNum < 1){
