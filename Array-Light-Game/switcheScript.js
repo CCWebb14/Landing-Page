@@ -121,7 +121,7 @@ function toggleSwitch(e){
 
 function toggleSwitch2(dataKey){
 
-    if(Number.isInteger(parseInt(dataKey))){
+    if(Number.isInteger((dataKey.length == 1) && (parseInt(dataKey)))){
         lights.forEach(light => toggleByNum(light, dataKey));
     }
     else if(Number.isInteger(parseInt(dataKey[0]))){
