@@ -5,92 +5,14 @@ const lights = document.querySelectorAll('.light');
 let x = prompt("How many pre-determined moves? (<=1000)");
 
 if((!parseInt(x)) || x > 1000){
-    throw new Error("This is not an int");
+    throw new Error("This is not an int or greater than 1000");
 }
 
 x = parseInt(x);
 
 for(let i = 0; i<x; i++){
-    ranNum = Math.random() * 26;
-    let dataKey = "";
-    if (ranNum < 1){
-        dataKey = switches[0].getAttribute('data-key');
-    }
-    else if (ranNum < 2){
-        dataKey = switches[1].getAttribute('data-key');
-    }
-    else if (ranNum < 3){
-        dataKey = switches[2].getAttribute('data-key');
-    }
-    else if (ranNum < 4){
-        dataKey = switches[3].getAttribute('data-key');
-    }
-    else if (ranNum < 5){
-        dataKey = switches[4].getAttribute('data-key');
-    }
-    else if (ranNum < 6){
-        dataKey = switches[5].getAttribute('data-key');
-    }
-    else if (ranNum < 7){
-        dataKey = switches[6].getAttribute('data-key');
-    }
-    else if (ranNum < 8){
-        dataKey = switches[7].getAttribute('data-key');
-    }
-    else if (ranNum < 9){
-        dataKey = switches[8].getAttribute('data-key');
-    }
-    else if (ranNum < 10){
-        dataKey = switches[9].getAttribute('data-key');
-    }
-    else if (ranNum < 11){
-        dataKey = switches[10].getAttribute('data-key');
-    }
-    else if (ranNum < 12){
-        dataKey = switches[11].getAttribute('data-key');
-    }
-    else if (ranNum < 13){
-        dataKey = switches[12].getAttribute('data-key');
-    }
-    else if (ranNum < 14){
-        dataKey = switches[13].getAttribute('data-key');
-    }
-    else if (ranNum < 15){
-        dataKey = switches[14].getAttribute('data-key');
-    }
-    else if (ranNum < 16){
-        dataKey = switches[15].getAttribute('data-key');
-    }
-    else if (ranNum < 17){
-        dataKey = switches[16].getAttribute('data-key');
-    }
-    else if (ranNum < 18){
-        dataKey = switches[17].getAttribute('data-key');
-    }
-    else if (ranNum < 19){
-        dataKey = switches[18].getAttribute('data-key');
-    }
-    else if (ranNum < 20){
-        dataKey = switches[19].getAttribute('data-key');
-    }
-    else if (ranNum < 21){
-        dataKey = switches[20].getAttribute('data-key');
-    }
-    else if (ranNum < 22){
-        dataKey = switches[21].getAttribute('data-key');
-    }
-    else if (ranNum < 23){
-        dataKey = switches[22].getAttribute('data-key');
-    }
-    else if (ranNum < 24){
-        dataKey = switches[23].getAttribute('data-key');
-    }
-    else if (ranNum < 25){
-        dataKey = switches[24].getAttribute('data-key');
-    }
-    else if (ranNum < 26){
-        dataKey = switches[25].getAttribute('data-key');
-    }
+    ranNum = Math.floor(Math.random() * 26);
+    let dataKey = switches[ranNum].getAttribute('data-key');
 
     toggleSwitch2(dataKey);
 }
