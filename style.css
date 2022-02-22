@@ -33,6 +33,10 @@ body {
 .content  ul {
     display: flex;
     column-gap: 15px;
+
+    flex-wrap: wrap;
+    row-gap: 15px;
+    
     list-style: none;    
 }
 
