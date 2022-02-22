@@ -38,6 +38,7 @@ body {
     row-gap: 15px;
     
     list-style: none;    
+    justify-content: center;
 }
 
 .content ul a {
