@@ -41,18 +41,6 @@ body {
     text-decoration: none;
 }
 
-#drums{
-    color: #3882F6;
-}
-
-#lights{
-    color: red;
-}
-
-#RPS{
-    color: yellow;
-}
-
 .bar2 {
     display: flex;
     background: #1F2937;
