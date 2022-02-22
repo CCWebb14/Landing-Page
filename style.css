@@ -31,6 +31,7 @@ body {
 }
 
 .content  ul {
+    padding:0px;
     display: flex;
     column-gap: 15px;
 
@@ -49,7 +50,7 @@ body {
 
 .content img {
     flex: 0 0 0;
-    padding-left: 15px;
+    margin-left: 15px;
     height: 48px;
     width: 48px;
 }
