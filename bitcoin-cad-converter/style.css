@@ -1,0 +1,33 @@
+html {
+  font-size: 10px;
+  background-color: #1F2937;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  row-gap: 10px;
+}
+
+.entry-bar {
+  color: white;
+  height: 75px;
+  width: 60vw;
+
+  background: linear-gradient(145deg, #1A232F, #242F3F);
+  border-radius: 1em;
+  box-shadow: 9.91px 9.91px 15px #1C2532, -9.91px -9.91px 15px #222D3C;
+}
