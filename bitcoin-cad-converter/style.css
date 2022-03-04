@@ -23,11 +23,26 @@ body,html {
 }
 
 .entry-bar {
+  display: flex;
   color: white;
   height: 75px;
-  width: 60vw;
-
+  width: 50vw;
+  padding: 0 5rem;
   background: linear-gradient(145deg, #1A232F, #242F3F);
   border-radius: 1em;
   box-shadow: 9.91px 9.91px 15px #1C2532, -9.91px -9.91px 15px #222D3C;
+
+  font-size: 2em;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.entry-bar-content {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 20%;
+  }
 }
