@@ -46,12 +46,11 @@ body,html {
   border-radius: 1em;
   box-shadow: 9.91px 9.91px 15px #1C2532, -9.91px -9.91px 15px #222D3C;
   max-width: 750px;
-  font-size: 1.5em;
 }
 
 #entry-bar-content{
   flex: auto;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #f9faf8;
   outline-width: 0;
   background: transparent;
