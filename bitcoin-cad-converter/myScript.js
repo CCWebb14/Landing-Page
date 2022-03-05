@@ -13,34 +13,31 @@ function inputResponse(e){
     console.log(factor);
 
     if (isNaN(factor)){
-        res.innerText = "NaN";
+        res.innerText = "";
     }
     if (!isNaN(factor)){
         getPrice(parseFloat(factor));
-    }
-
-
-    // getPrice(parseFloat(factor));
-
-
-    
+    }  
 }
 
 function getPrice(factor){
     fetch('https://api.coingecko.com/api/v3/coins/bitcoin')
         .then(function(response) {
-        console.log("IT WORKED");
             return response.json();
+        })
+        .catch(function(err) {
+            console.log("Could not fetch from coingecko");
         })
         .then(function(response) {
             console.log(response.market_data.current_price.cad);
             price = parseFloat(response.market_data.current_price.cad);
             result = (price * factor).toFixed(2);
             if (isNaN(result)){
-                res.innerText = ""
+                res.innerText = "";
+                
             }
             else{
-                res.innerText = "$ " + result;
+                res.innerText = result + " CAD" ;
             }
         });
 }
