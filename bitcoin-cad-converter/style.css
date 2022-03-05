@@ -50,8 +50,9 @@ body,html {
 
 #entry-bar-content{
   flex: auto;
-  font-size: 1.6em;
-  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
   outline-width: 0;
   background: transparent;
   border: none;
@@ -69,6 +70,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 @keyframes blinker {
   50% {
-    opacity: 10%;
+    opacity: 25%;
   }
 }
