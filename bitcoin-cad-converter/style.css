@@ -22,16 +22,15 @@ body,html {
   justify-content: center;
   align-items: center;
   row-gap: 4em;
-  margin: 0 2em;
+  margin: 0 10vw;
 }
 
 .result-field {
   display: flex;
   color: #f9faf8;
   height: 75px;
-  padding: 0 5rem;
   flex-basis: 100%;
-  font-size: 3em;
+  font-size: 4vh;
   align-items: center;
   justify-content: center;
 
@@ -41,7 +40,7 @@ body,html {
   display: flex;
   flex: auto;
   height: 75px;
-  padding: 0 5rem;
+  padding: 0 5vw;
   background: linear-gradient(145deg, #1A232F, #242F3F);
   border-radius: 1em;
   box-shadow: 9.91px 9.91px 15px #1C2532, -9.91px -9.91px 15px #222D3C;
@@ -50,7 +49,7 @@ body,html {
 
 #entry-bar-content{
   /* flex: auto; */
-  font-size: 1.6em;
+  font-size: 2vh;
   color: white;
   outline-width: 0;
   background: transparent;
