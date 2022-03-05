@@ -30,7 +30,7 @@ body,html {
   color: #f9faf8;
   height: 75px;
   flex-basis: 100%;
-  font-size: 4vh;
+  font-size: calc(1.5em + 1vmin);
   align-items: center;
   justify-content: center;
 
@@ -48,8 +48,8 @@ body,html {
 }
 
 #entry-bar-content{
-  /* flex: auto; */
-  font-size: 2vh;
+  flex: auto;
+  font-size: calc(0.75em + 1vmin);
   color: white;
   outline-width: 0;
   background: transparent;
