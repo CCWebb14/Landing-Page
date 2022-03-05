@@ -19,7 +19,20 @@ body,html {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 20px;
-  row-gap: 10px;
+  row-gap: 4em;
+}
+
+.result-field {
+  display: flex;
+  color: red;
+  height: 75px;
+  width: 50vw;
+  padding: 0 5rem;
+
+
+  font-size: 4em;
+  align-items: center;
+  justify-content: center;
 }
 
 .entry-bar {
@@ -34,7 +47,6 @@ body,html {
 
   font-size: 2em;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .entry-bar-content {
