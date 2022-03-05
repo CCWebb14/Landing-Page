@@ -49,9 +49,8 @@ body,html {
 }
 
 #entry-bar-content{
-  flex: auto;
-  font-size: 16px;
-  font-weight: bold;
+  /* flex: auto; */
+  font-size: 1.6em;
   color: white;
   outline-width: 0;
   background: transparent;
