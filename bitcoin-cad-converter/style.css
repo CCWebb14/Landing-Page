@@ -24,7 +24,7 @@ body,html {
 
 .result-field {
   display: flex;
-  color: red;
+  color: #f9faf8;
   height: 75px;
   width: 50vw;
   padding: 0 5rem;
@@ -37,7 +37,6 @@ body,html {
 
 .entry-bar {
   display: flex;
-  color: white;
   height: 75px;
   width: 50vw;
   padding: 0 5rem;
@@ -49,7 +48,19 @@ body,html {
   align-items: center;
 }
 
-.entry-bar-content {
+#entry-bar-content{
+  display: flex;
+  flex: auto;
+
+  font-size: 1em;
+  color: #f9faf8;
+  outline-width: 0;
+
+  background: transparent;
+  border: none;
+}
+
+.entry-bar-content-animation {
   animation: blinker 2s linear infinite;
 }
 

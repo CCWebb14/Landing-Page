@@ -8,11 +8,12 @@
 <body>
 
   <div class="container">
-    <div class="result-field" id="res">$ Placeholder</div>
+    <div class="result-field" id="res"></div>
     <div class="entry-bar">
-      <div class="entry-bar-content">
-        Please enter the BTC amount</div>
-      </div>
+      <input type="text" id="entry-bar-content" value="Please enter bitcoin amount..."
+       onfocus='if(this.value=="Please enter bitcoin amount..."){this.value="";}' />
+      <!-- <div class="entry-bar-content" contenteditable="true" value="Name">Test</div>
+      </div> -->
   </div>
 
 <script src="./myScript.js"></script>
