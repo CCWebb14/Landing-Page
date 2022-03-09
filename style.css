@@ -32,7 +32,6 @@ body {
 
 .content  ul {
     padding:0px;
-    margin: 15px 15px;
     display: flex;
     column-gap: 15px;
 
